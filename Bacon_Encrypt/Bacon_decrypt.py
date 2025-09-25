@@ -41,7 +41,7 @@ def decrypt_bacon(cipher: str) -> str:
 if __name__ == "__main__":
     input_file = "input.txt"
     output_file = "output.txt"
-
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     if not os.path.exists(input_file):
         print(f"[!] File {input_file} not found / Không tìm thấy {input_file}")
         exit(1)
