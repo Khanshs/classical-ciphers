@@ -9,26 +9,32 @@ This folder contains Python scripts to **encrypt** and **decrypt** messages usin
 ## 🚀 Usage
 
 ### 1. Encryption
-Put your plaintext message in `input.txt`, for example:
-    Hello World
+Put your plaintext message in `input.txt`
+```text
+Hello World
+```
+
 Run:
 ```bash
 python Bacon_encrypt.py
 ```
 Result will be saved in `output.txt`, e.g.:
+
     `CHoqn ENeSX WuAxl QbXhx SkgaW   hGpfQ NdkcN fXPJr YvQtj QHDsy`
   
 ### 2. Decryption
-Put your ciphertext (with uppercase/lowercase patterns) in `input.txt`, 
-for example:
-    I WENt TO SCHOOL tODay, iT Was RaInING nO I dO NOt lIKe it WHen iT RAIns
+Put your ciphertext (with uppercase/lowercase patterns) in `input.txt`,for example:
+```text
+    I WENt TO SCHOOL tODay, iT Was RaInING nO I dO NOt lIKe it WHen iT RAIns.
+```
 Run:
 ```bash
 python Bacon_decrypt.py
 ```
 Result will be saved in `output.txt`: 
-    `BACONISGOOD`
-
+```text
+    BACONISGOOD
+```
 ## ⚠️ Important Note
 
 Both scripts use the same filenames:
