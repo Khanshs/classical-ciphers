@@ -19,7 +19,8 @@ Result will be saved in `output.txt`, e.g.:
     `CHoqn ENeSX WuAxl QbXhx SkgaW   hGpfQ NdkcN fXPJr YvQtj QHDsy`
   
 ### 2. Decryption
-Put your ciphertext (with uppercase/lowercase patterns) in `input.txt`, for example:
+Put your ciphertext (with uppercase/lowercase patterns) in `input.txt`, 
+for example:
     I WENt TO SCHOOL tODay, iT Was RaInING nO I dO NOt lIKe it WHen iT RAIns
 Run:
 ```bash
